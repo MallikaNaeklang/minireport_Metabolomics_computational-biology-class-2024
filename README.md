@@ -13,24 +13,19 @@ Metabolites :   1. Endogenous metabolite = small molecules naturally produced wi
 3. Microbial metabolite = mall molecules produced by microorganisms as part of their metabolic activities. <br>
 4. Biofluid = small molecules found in bodily fluids such as blood, urine, saliva, cerebrospinal fluid, and others. These metabolites are produced as part of normal physiological processes.<br>
 <br>
-<br>
-
-***key methods and approaches to study metabolomics :***<br>
+<br>***key methods and approaches to study metabolomics :***<br>
 1. Mass Spectrometry (MS):  It separates metabolites based on their chemical properties using liquid or gas chromatography<br>
 2. Nuclear Magnetic Resonance (NMR) Spectroscopy: on-destructive technique that provides structural information about metabolites based on their nuclear spins. It is particularly useful for identifying and quantifying metabolites in complex mixtures.<br>
 
-<br>
-**NMR and data acquisition**
-<br>
-*what is data acquisition?* <br>
+<br>**NMR and data acquisition**
+<br>*what is data acquisition?* <br>
 During data acquisition, the sample is subjected to a series of RF pulses and the resulting NMR signals are detected by the RF coil. The signals are digitized and recorded as a function of time, frequency, or both, resulting in an NMR spectrum.
 <br>
 <br>
 After data acquisition, the NMR spectrum is processed to remove noise, baseline correction, and phase correction. Advanced spectral analysis techniques, such as Fourier transformation and spectral deconvolution, are applied to extract structural and chemical information from the spectrum.
-
 <br>
 <br>
-**typical workflow of metabolic profiling**
+<br>**typical workflow of metabolic profiling**
 <br>
 1. Experimental Design and Sample Collection <br>
 2. Sample Preparation <br>
@@ -42,8 +37,8 @@ After data acquisition, the NMR spectrum is processed to remove noise, baseline 
 8. Interpretation and Validation = Interpret metabolic changes in the context of biological systems, pathways, and networks. Moreover, Validate key findings using independent sample sets or orthogonal analytical methods.<br>
 <br>
 <br>
-<br>### Preporcessing of the data
-<br>
+### Preporcessing of the data <br>
+*1.Phasing* =  adjusting the phase of the recorded NMR signal to ensure that it is consistent across the spectrum. 
 
 
 
