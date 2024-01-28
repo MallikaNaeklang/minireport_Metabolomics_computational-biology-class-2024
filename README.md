@@ -39,6 +39,14 @@ After data acquisition, the NMR spectrum is processed to remove noise, baseline 
 <br>
 ### Preporcessing of the data <br>
 *1.Phasing* =  adjusting the phase of the recorded NMR signal to ensure that it is consistent across the spectrum. 
-
+<br>
+<br>
+you can adjust the shifting by using many software such as R studio<br>
+git add # Load your NMR data file
+git add # Plot the NMR spectrum before phase correction
+plot(nmr_data)
+git add # Perform phase correction (zero-order and first-order)
+nmr_data_corrected <- phc(nmr_data)
+<br>
 
 
