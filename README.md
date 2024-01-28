@@ -42,12 +42,22 @@ After data acquisition, the NMR spectrum is processed to remove noise, baseline 
 <br>
 <br>
 you can adjust the shifting by using many software such as R studio<br>
-```git add upload your NMR data file
-git add Plot the NMR spectrum before phase correction
-plot(nmr_data)
-git add Perform phase correction (zero-order and first-order)
-nmr_data_corrected <- phc(nmr_data)```
+upload your NMR data file,add Plot the NMR spectrum before phase correction
+<br>
+Perform phase correction (zero-order and first-order)
+<br>
+```plot(nmr_data) nmr_data_corrected <- phc(nmr_data)```
 <br>
 <br>
+*2.Baseline Correction* Remove or adjust the baseline of the spectrum to eliminate background noise and artifacts. 
+<br>
+<br>
+#cut unspeicfic region e.g. noise, lower field. Have to cut offf because it will affect to the normalization (most of noise is in lwer field)       
+matspec(X_cal, ppm, shift = c(4.7,4.9), interactive=F, main='residual of water')<br>
+matspec(X_cal, ppm, shift = c(9, 11), interactive=F, main='LowField Cap')<br>
+matspec(X_cal, ppm, shift = c(-1, 1), interactive=F, main='UpField Cap') #signal of tsp<br>
+<br>
+
+*3. Peak Picking* Identify and extract peaks corresponding to different chemical entities present in the sample. <br>
 
 
