@@ -42,11 +42,12 @@ After data acquisition, the NMR spectrum is processed to remove noise, baseline 
 <br>
 <br>
 you can adjust the shifting by using many software such as R studio<br>
-git add # Load your NMR data file
-git add # Plot the NMR spectrum before phase correction
+```git add upload your NMR data file
+git add Plot the NMR spectrum before phase correction
 plot(nmr_data)
-git add # Perform phase correction (zero-order and first-order)
-nmr_data_corrected <- phc(nmr_data)
+git add Perform phase correction (zero-order and first-order)
+nmr_data_corrected <- phc(nmr_data)```
+<br>
 <br>
 
 
