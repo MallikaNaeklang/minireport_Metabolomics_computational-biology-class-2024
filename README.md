@@ -30,4 +30,20 @@ After data acquisition, the NMR spectrum is processed to remove noise, baseline 
 
 <br>
 <br>
-***typical workflow of metabolic profiling***
+**typical workflow of metabolic profiling**
+<br>
+1. Experimental Design and Sample Collection <br>
+2. Sample Preparation <br>
+3. Instrumental Analysis = using analytical techniques such as mass spectrometry (MS), nuclear magnetic resonance (NMR) spectroscopy, or chromatography-based methods (e.g., liquid chromatography, gas chromatography). <br>
+4. Data Acquisition= get the raw data from the analytical instruments, including mass spectra, NMR spectra, or chromatograms.<br>
+5. Data Preprocessing = remove noise, correct baseline drift, and normalize signal intensities, making a suitable format for downstream analysis<br>
+6. Data Analysis <br>
+7. Metabolite Annotation and Identification = detected metabolites by comparing experimental data with reference spectra, databases, and literature information. <br>
+8. Interpretation and Validation = Interpret metabolic changes in the context of biological systems, pathways, and networks. Moreover, Validate key findings using independent sample sets or orthogonal analytical methods.<br>
+<br>
+<br>
+<br>### Preporcessing of the data
+<br>
+
+
+
