@@ -70,7 +70,9 @@ Plot TSP signal : specOverlay(X_cal, ppm, shift = c(-0.05,0.05),
 1.Biomedical Research<br>
 2.Pharmacology and Drug Discovery<br>
 3.Nutritional Sciences:<br>
-4.
+4.Microbial Ecology and Environmental Sciences<br>
+5.Food Science and Agriculture<br>
+6.Clinical Diagnostics and Personalized Medicine<br>
 
 
 
