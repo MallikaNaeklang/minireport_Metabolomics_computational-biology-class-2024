@@ -57,15 +57,14 @@ matspec(X_cal, ppm, shift = c(-1, 1), interactive=F, main='UpField Cap')```<br>
 *7. Scaling* aim to balance signal intensity variances<br>
 <br>
 <br>
-# Application of NMR metabolomics  :bulb:
+# Application of NMR metabolomics  :bulb:<br>
+<br>**1.Biomedical Research**<br>identifying biomarkers for diseases, monitoring disease progression, and evaluating treatment responses. It can be applied to study various conditions such as cancer, diabetes, neurological disorders, and metabolic syndromes.<br>
+**2.Pharmacology and Drug Discovery**<br>identifying metabolic effects of drugs, and assessing drug safety and efficacy. It helps in understanding drug metabolism, pharmacokinetics, and toxicity.<br>
+**3.Nutritional Sciences**<br> metabolic basis of nutritional diseases and optimizing dietary interventions for health promotion and disease prevention.<br>
+**4.Microbial Ecology and Environmental Sciences**<br>microbial metabolism, interactions, and responses to environmental changes. <br>
+**5.Food Science and Agriculture**<br>to analyze the composition and quality of food products, detect food contaminants, and assess food safety and quality.<br>
+**6.Clinical Diagnostics and Personalized Medicine**<br>for clinical diagnostics and personalized medicine by providing insights into individual metabolic profiles, identifying disease signatures, and guiding personalized treatment strategies based on metabolic phenotypes.<br>
 <br>
-<br>
-1.Biomedical Research<br>
-2.Pharmacology and Drug Discovery<br>
-3.Nutritional Sciences:<br>
-4.Microbial Ecology and Environmental Sciences<br>
-5.Food Science and Agriculture<br>
-6.Clinical Diagnostics and Personalized Medicine<br>
 
 
 
