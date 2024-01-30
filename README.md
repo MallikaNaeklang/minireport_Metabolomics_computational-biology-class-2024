@@ -34,7 +34,9 @@ After data acquisition, the NMR spectrum is processed to remove noise, baseline 
 5. Data Preprocessing = remove noise, correct baseline drift, and normalize signal intensities, making a suitable format for downstream analysis<br>
 6. Data Analysis <br>
 7. Metabolite Annotation and Identification = detected metabolites by comparing experimental data with reference spectra, databases, and literature information. <br>
-8. Interpretation and Validation = Interpret metabolic changes in the context of biological systems, pathways, and networks. Moreover, Validate key findings using independent sample sets or orthogonal analytical methods.<br><br><br>
+8. Interpretation and Validation = Interpret metabolic changes in the context of biological systems, pathways, and networks. Moreover, Validate key findings using independent sample sets or orthogonal analytical methods.<br><br>
+![Alt text](https://www.researchgate.net/figure/Scheme-of-the-main-steps-for-NMR-sample-preparation-NMR-spectroscopy-data-acquisition_fig5_312128461)
+<br>
 ### Preporcessing of the data<br>
 *1.Phasing* =  adjusting the phase of the recorded NMR signal to ensure that it is consistent across the spectrum. <br>
 you can adjust the shifting by using many software such as R studio<br>
