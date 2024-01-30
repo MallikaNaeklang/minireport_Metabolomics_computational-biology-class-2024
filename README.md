@@ -53,19 +53,13 @@ matspec(X_cal, ppm, shift = c(9, 11), interactive=F, main='LowField Cap')
 matspec(X_cal, ppm, shift = c(-1, 1), interactive=F, main='UpField Cap')```
 <br>
 <br> *3. Peak Picking* Identify and extract peaks corresponding to different chemical entities present in the sample.<br>
-*4.calibrate the chemical shift (spectra processing)* The calibration of the scale of PPM is to adjust the chemical shifts according to a known reference.<br>
-```# Perform TSP calibration
-X_cal <- calibrate(X, ppm, type = 'tsp')
-
-# Plot TSP after calibration
-matspec(X_cal, ppm, shift = c(-0.1,0.1), interactive = FALSE)
-
-# Plot TSP signal
-specOverlay(X_cal, ppm, shift = c(-0.05,0.05),
+*4.calibrate the chemical shift (spectra processing)* The calibration of the scale of PPM is to adjust the chemical shifts according to a known reference.<br>```Perform TSP calibration : X_cal <- calibrate(X, ppm, type = 'tsp')<br>
+Plot TSP after calibration : matspec(X_cal, ppm, shift = c(-0.1,0.1), interactive = FALSE)<br>
+Plot TSP signal : specOverlay(X_cal, ppm, shift = c(-0.05,0.05),
             an = list('Facet' = meta$a_EXP,
                       'Receiver Gain' = meta$a_RG,
-                      'Pulse Program' = meta$a_PULPROG))```
-<br>
+                      'Pulse Program' = meta$a_PULPROG))```<br>
+*5.Binning or bucketing* A form of quantification that consists of segmenting a spectrum. into small areas (bins/buckets) and attaining an integral value for that segment.<br>
 
 
 
