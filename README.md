@@ -53,7 +53,6 @@ Perform phase correction (zero-order and first-order)
 matspec(X_cal, ppm, shift = c(9, 11), interactive=F, main='LowField Cap')
 matspec(X_cal, ppm, shift = c(-1, 1), interactive=F, main='UpField Cap')```
 <br>
-
-*3. Peak Picking* Identify and extract peaks corresponding to different chemical entities present in the sample. <br>
+<br> *3. Peak Picking* Identify and extract peaks corresponding to different chemical entities present in the sample.<br>
 
 
