@@ -34,7 +34,7 @@ After data acquisition, the NMR spectrum is processed to remove noise, baseline 
 6. Data Analysis <br>
 7. Metabolite Annotation and Identification = detected metabolites by comparing experimental data with reference spectra, databases, and literature information. <br>
 8. Interpretation and Validation = Interpret metabolic changes in the context of biological systems, pathways, and networks. Moreover, Validate key findings using independent sample sets or orthogonal analytical methods.<br><br><br>
-### Preporcessing of the data<br>
+### Preprocessing of the data<br>
 *1.Phasing* =  adjusting the phase of the recorded NMR signal to ensure that it is consistent across the spectrum.<br>
 you can adjust the shifting by using many software such as R studio<br>
 upload your NMR data file,add Plot the NMR spectrum before phase correction<br>
