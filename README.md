@@ -48,11 +48,24 @@ Perform phase correction (zero-order and first-order)
 *2.Baseline Correction* Remove or adjust the baseline of the spectrum to eliminate background noise and artifacts. <br>
 ```X_bl <- bcor(X_cut)```
 <br>
-#cut unspeicfic region e.g. noise, lower field. Have to cut offf because it will affect to the normalization (most of noise is in lwer field)       
-```matspec(X_cal, ppm, shift = c(4.7,4.9), interactive=F, main='residual of water')
+#cut unspeicfic region e.g. noise, lower field. Have to cut offf because it will affect to the normalization (most of noise is in lwer field)<br>```matspec(X_cal, ppm, shift = c(4.7,4.9), interactive=F, main='residual of water')
 matspec(X_cal, ppm, shift = c(9, 11), interactive=F, main='LowField Cap')
 matspec(X_cal, ppm, shift = c(-1, 1), interactive=F, main='UpField Cap')```
 <br>
 <br> *3. Peak Picking* Identify and extract peaks corresponding to different chemical entities present in the sample.<br>
+*4.calibrate the chemical shift (spectra processing)* The calibration of the scale of PPM is to adjust the chemical shifts according to a known reference.<br>
+```# Perform TSP calibration
+X_cal <- calibrate(X, ppm, type = 'tsp')
+
+# Plot TSP after calibration
+matspec(X_cal, ppm, shift = c(-0.1,0.1), interactive = FALSE)
+
+# Plot TSP signal
+specOverlay(X_cal, ppm, shift = c(-0.05,0.05),
+            an = list('Facet' = meta$a_EXP,
+                      'Receiver Gain' = meta$a_RG,
+                      'Pulse Program' = meta$a_PULPROG))```
+<br>
+
 
 
