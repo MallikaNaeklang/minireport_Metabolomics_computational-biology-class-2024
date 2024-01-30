@@ -34,13 +34,9 @@ After data acquisition, the NMR spectrum is processed to remove noise, baseline 
 5. Data Preprocessing = remove noise, correct baseline drift, and normalize signal intensities, making a suitable format for downstream analysis<br>
 6. Data Analysis <br>
 7. Metabolite Annotation and Identification = detected metabolites by comparing experimental data with reference spectra, databases, and literature information. <br>
-8. Interpretation and Validation = Interpret metabolic changes in the context of biological systems, pathways, and networks. Moreover, Validate key findings using independent sample sets or orthogonal analytical methods.<br>
-<br>
-<br>
-### Preporcessing of the data <br>
-*1.Phasing* =  adjusting the phase of the recorded NMR signal to ensure that it is consistent across the spectrum. 
-<br>
-<br>
+8. Interpretation and Validation = Interpret metabolic changes in the context of biological systems, pathways, and networks. Moreover, Validate key findings using independent sample sets or orthogonal analytical methods.<br><br><br>
+### Preporcessing of the data<br>
+*1.Phasing* =  adjusting the phase of the recorded NMR signal to ensure that it is consistent across the spectrum. <br>
 you can adjust the shifting by using many software such as R studio<br>
 upload your NMR data file,add Plot the NMR spectrum before phase correction
 <br>
@@ -49,13 +45,13 @@ Perform phase correction (zero-order and first-order)
 ```plot(nmr_data) nmr_data_corrected <- phc(nmr_data)```
 <br>
 <br>
-*2.Baseline Correction* Remove or adjust the baseline of the spectrum to eliminate background noise and artifacts. 
-<br>
+*2.Baseline Correction* Remove or adjust the baseline of the spectrum to eliminate background noise and artifacts. <br>
+```X_bl <- bcor(X_cut)```
 <br>
 #cut unspeicfic region e.g. noise, lower field. Have to cut offf because it will affect to the normalization (most of noise is in lwer field)       
-matspec(X_cal, ppm, shift = c(4.7,4.9), interactive=F, main='residual of water')<br>
-matspec(X_cal, ppm, shift = c(9, 11), interactive=F, main='LowField Cap')<br>
-matspec(X_cal, ppm, shift = c(-1, 1), interactive=F, main='UpField Cap') #signal of tsp<br>
+```matspec(X_cal, ppm, shift = c(4.7,4.9), interactive=F, main='residual of water')
+matspec(X_cal, ppm, shift = c(9, 11), interactive=F, main='LowField Cap')
+matspec(X_cal, ppm, shift = c(-1, 1), interactive=F, main='UpField Cap')```
 <br>
 
 *3. Peak Picking* Identify and extract peaks corresponding to different chemical entities present in the sample. <br>
