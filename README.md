@@ -57,6 +57,8 @@ matspec(X_cal, ppm, shift = c(-1, 1), interactive=F, main='UpField Cap')```<br>
 *7. Scaling* aim to balance signal intensity variances<br>
 <br>
 <br>
+## Data analysis<br> 
+<br>various tools and software packages are used for data analysis to extract meaningful information from the complex spectra generated. These tools help in spectral processing, peak identification, quantification, statistical analysis, and interpretation of metabolite profiles. For example, **NMR Spectral Processing Software** using TopSpin and MestReNova, **Metabolite Identification and Database Tools** using Chenomx NMR Suite and HMDB (Human Metabolome Database), **Statistical Analysis Software** using R and MATLAB,and for **multivariate Analysis Tools** will be suing PCA (Principal Component Analysis), PLS-DA (Partial Least Squares-Discriminant Analysis) and OPLS-DA (Orthogonal Partial Least Squares-Discriminant Analysis).<br><br>
 # Application of NMR metabolomics  :bulb:<br>
 <br>**1.Biomedical Research**<br>identifying biomarkers for diseases, monitoring disease progression, and evaluating treatment responses. It can be applied to study various conditions such as cancer, diabetes, neurological disorders, and metabolic syndromes.<br>
 **2.Pharmacology and Drug Discovery**<br>identifying metabolic effects of drugs, and assessing drug safety and efficacy. It helps in understanding drug metabolism, pharmacokinetics, and toxicity.<br>
