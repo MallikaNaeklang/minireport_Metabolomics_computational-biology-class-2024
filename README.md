@@ -26,7 +26,7 @@ After data acquisition, the NMR spectrum is processed to remove noise, baseline 
 <br>
 <br>
 <br>**typical workflow of metabolic profiling**<br>
-1. Experimental Design and Sample Collection <br>
+1. Experimental Design and Sample Collection <br>A good plan ensures that sensitive metabolites samples are collected, stored, and processed to minimize variability in order to get high quality results. A good research design helps in selecting appropriate controls, replicates, and experimental conditions,A well-planned study ensures data quality and reliability. 
 2. Sample Preparation <br>
 3. Instrumental Analysis = using analytical techniques such as mass spectrometry (MS), nuclear magnetic resonance (NMR) spectroscopy, or chromatography-based methods (e.g., liquid chromatography, gas chromatography). <br>
 4. Data Acquisition= get the raw data from the analytical instruments, including mass spectra, NMR spectra, or chromatograms.<br>
